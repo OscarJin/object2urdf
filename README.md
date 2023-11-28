@@ -2,7 +2,7 @@
 Manage a library of objects for use in pybullet physics
 
 ## 2023/11/28 Update
-Compatible with `trimesh 4.0.5`.
+Compatible with `trimesh==4.0.5`.
 
 ## Installation
 ### Install the release version
