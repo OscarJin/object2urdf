@@ -90,7 +90,7 @@ class ObjectUrdfBuilder:
     def do_vhacd(self, filename, outfile, debug=False, **kwargs):
         try:
             mesh = trimesh.load(filename)
-            convex_list = trimesh.interfaces.vhacd.convex_decomposition(mesh, debug=debug, **kwargs)
+            convex_list = trimesh.Trimesh.convex_decomposition(mesh, debug=debug, **kwargs)
 
             convex = trimesh.util.concatenate(convex_list)
             convex.export(outfile)
