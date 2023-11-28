@@ -1,6 +1,9 @@
 # object2urdf
 Manage a library of objects for use in pybullet physics
 
+## 2023/11/28 Update
+Compatible with `trimesh 4.0.5`.
+
 ## Installation
 ### Install the release version
 [This package is available on pypi](https://pypi.org/project/object2urdf/), so anyone can install it with pip: `pip install object2urdf`
